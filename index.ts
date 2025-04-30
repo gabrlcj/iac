@@ -1,14 +1,14 @@
 import * as aws from "@pulumi/aws";
 
-const firstBucket = new aws.s3.BucketV2("first-bucket-ftr", {
-    bucket: 'first-bucket-ftr',
+const firstBucket = new aws.s3.BucketV2("bucket-ftr-1", {
+    bucket: 'bucket-ftr-1',
     tags: {
         IaC: 'true',
     },
 });
 
-const secondBucket = new aws.s3.BucketV2("second-bucket-ftr", {
-    bucket: 'second-bucket-ftr',
+const secondBucket = new aws.s3.BucketV2("bucket-ftr-2", {
+    bucket: 'bucket-ftr-2',
     tags: {
         IaC: 'true',
     },
