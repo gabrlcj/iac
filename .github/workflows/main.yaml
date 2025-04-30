@@ -30,7 +30,7 @@ jobs:
         run: |
           pnpm install
 
-      - name: Confifure AWS Credentials
+      - name: Configure AWS Credentials
         id: configure-aws-credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
