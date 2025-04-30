@@ -32,3 +32,4 @@ export const secondBucketArn = secondBucket.arn;
 
 export const ecrName = ecr.id;
 export const ecrRepositoryUrl = ecr.repositoryUrl;
+export const ecrImageTagMutability = ecr.imageTagMutability;
